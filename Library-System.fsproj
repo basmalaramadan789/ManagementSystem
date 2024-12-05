@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Book.fs" />
+    <Compile Include="LibraryManagement.fs" />
+    <Compile Include="DisplayBooksForm.fs" />
+    <Compile Include="ReturnBookForm.fs" />
+    <Compile Include="BorrowBookForm.fs" />
+    <Compile Include="SearchBookForm.fs" />
+    <Compile Include="AddBookForm.fs" />
+    <Compile Include="MainForm.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive.Windows.Forms" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
